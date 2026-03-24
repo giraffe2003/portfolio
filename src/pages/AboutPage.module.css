@@ -16,13 +16,15 @@
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: clamp(2rem, 5vw, 5rem);
-  align-items: start;
+  align-items: stretch;
 }
 
 /* ── Photo ── */
 .photoWrap {
   position: relative;
   width: 260px;
+  display: flex;
+  flex-direction: column;
 }
 
 .photoPlaceholder {
@@ -48,8 +50,8 @@
 }
 
 .photo {
-  width: 240px;
-  height: 300px;
+  width: 100%;
+  flex: 1;
   object-fit: cover;
   object-position: center top;
   border-radius: 120px 120px var(--radius-lg) var(--radius-lg);
