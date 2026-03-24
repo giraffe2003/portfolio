@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/next'
 import FloatingNav from './components/FloatingNav'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -36,6 +37,7 @@ export default function App() {
       <ScrollToTop />
       <FloatingNav />
       <AnimatedRoutes />
+      <Analytics />
     </BrowserRouter>
   )
 }
