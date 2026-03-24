@@ -14,7 +14,7 @@ export default function RunningCat() {
     <motion.div className={styles.wrap} style={{ x }}>
       <img
         className={styles.video}
-        src="/cat-walk.png"
+        src="/cat-walk.webp"
         alt=""
         aria-hidden="true"
       />
