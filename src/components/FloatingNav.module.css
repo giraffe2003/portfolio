@@ -1,0 +1,78 @@
+.nav {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  background: rgba(255, 251, 240, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(255, 173, 122, 0.35);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem;
+  box-shadow: 0 4px 24px rgba(245, 180, 66, 0.12), 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.item {
+  position: relative;
+}
+
+/* Each link is the hit target */
+.link {
+  display: block;
+  position: relative;
+  padding: 0.38rem 1.1rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* The sliding pill — lives inside whichever item is active */
+.bubble {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-pill);
+  background: var(--yellow-warm);
+  border: 1.5px solid var(--apricot);
+  box-shadow: 0 2px 8px rgba(245, 180, 66, 0.25);
+  z-index: 0;
+}
+
+/* Label sits above the bubble */
+.label {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--warm-dark);
+  transition: opacity 0.2s;
+}
+
+.inactive {
+  font-weight: 500;
+  opacity: 0.4;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .nav {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .label {
+    font-size: 0.82rem;
+  }
+
+  .link {
+    padding: 0.3rem 0.8rem;
+  }
+}
