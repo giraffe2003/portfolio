@@ -208,7 +208,7 @@ export default function CaseStudyInstantPayout() {
                 </h1>
                 <p className={styles.heroTagline}>
                   Designing a feature from concept to launch in collaboration with Payments and Fraud stakeholders —
-                  projected to generate $500K in revenue and boost user retention by 10%.
+                  generating $500K in revenue and boosting user retention by 10%.
                 </p>
               </ScrollReveal>
 
@@ -327,10 +327,6 @@ export default function CaseStudyInstantPayout() {
                     processing will lead to increased retention overall.
                   </p>
                   <p className={styles.body}>
-                    As such, we started to hone in on opportunities to improve processing — the most obvious
-                    being the ability to instantly deposit your money.
-                  </p>
-                  <p className={styles.body}>
                     Users had many frustrations about having to wait one-two business days for their funds,
                     especially over the weekend where they would have to wait till Monday.
                   </p>
@@ -426,12 +422,6 @@ export default function CaseStudyInstantPayout() {
                   Dealing with money meant that every team was involved.
                 </h2>
                 <p className={styles.body}>
-                  I needed to work cross-functionally with a lot of different teams to have a better understanding
-                  of all the feature requirements. This meant that I was constantly reviewing my designs with
-                  stakeholders, but because it was hard to get time with everyone at once, I ended up having to
-                  spread my time across the different teams.
-                </p>
-                <p className={styles.body}>
                   I noticed that the challenge of coordinating individual schedules and managing fragmented updates
                   was leading to growing misalignment across teams, with myself becoming the sole point of contact
                   for disparate information. This inefficiency was impeding the progress of the project.
@@ -512,12 +502,7 @@ export default function CaseStudyInstantPayout() {
                 Evaluating UI Patterns for Scheduling an Instant Payout.
               </h2>
               <p className={styles.body}>
-                Users have the ability to schedule an Instant Payout for the days of the week. That way,
-                if they want to get their money instantly every time they clock out on Friday, they can
-                schedule it instead of having to manually click it every time.
-              </p>
-              <p className={styles.body}>
-                My original design for the scheduled Instant Payout had dropdowns where users were able to
+                My original design for the scheduling an Instant Payout had dropdowns where users were able to
                 choose what kind of payout they wanted each day. However, testing with users showed that
                 toggles actually performed better.
               </p>
