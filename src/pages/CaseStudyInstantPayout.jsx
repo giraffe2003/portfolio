@@ -663,7 +663,7 @@ export default function CaseStudyInstantPayout() {
               <p className={styles.ctaSub}>You can find me at my socials below!</p>
               <div className={styles.ctaLinks}>
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/angela-wu-ux/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.ctaBtn}
