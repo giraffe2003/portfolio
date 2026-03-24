@@ -12,13 +12,10 @@ export default function RunningCat() {
 
   return (
     <motion.div className={styles.wrap} style={{ x }}>
-      <video
+      <img
         className={styles.video}
-        src="/cat-walk.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
+        src="/cat-walk.png"
+        alt=""
         aria-hidden="true"
       />
     </motion.div>
