@@ -26,7 +26,7 @@ const PROJECTS = [
   {
     id: 2,
     title: 'Dashboard Redesign',
-    category: 'AI Product · Mobile',
+    category: 'Reports · Mobile',
     description: "Leveraging AI prototyping tools to redesign Vagaro's homepage — reducing cognitive load and surfacing high-priority business insights.",
     accent: 'var(--blush)',
     accentDark: '#D4746A',

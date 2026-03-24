@@ -13,8 +13,8 @@ const ANNOTATIONS = [
   {
     id: 1,
     callout: 'Transfer balance is clearer to see and the main focus of the popup — the dollar amount leads the design.',
-    before: { x: '50%', y: '40%' },
-    after:  { x: '50%', y: '36%' },
+    before: { x: '80%', y: '52%' },
+    after:  { x: '50%', y: '48%' },
   },
   {
     id: 2,
