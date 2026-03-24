@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import FloatingNav from './components/FloatingNav'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -38,6 +39,7 @@ export default function App() {
       <FloatingNav />
       <AnimatedRoutes />
       <Analytics />
+      <SpeedInsights />
     </BrowserRouter>
   )
 }
